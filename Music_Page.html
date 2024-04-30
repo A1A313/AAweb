@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.active {
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.center2 {
+  margin: auto;
+  width: 60%;
+}
+
+.center3 {
+  margin: auto;
+  width: 30%;
+}
+
+body {
+  background-image: url("/home/a/Pictures/stars background");
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #bbb;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+
+<ul><div class="center2">
+
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Main Page">♤</a></li>
+  
+ <li class="dropdown">
+    <a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Music Page" class="dropbtn; active">Music</a>
+    <div class="dropdown-content">
+    
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=b0b8671d">H.B.D. (Handlin' Bizness Dolo) : White</a>
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=87b1754f">H.B.D. (Handlin' Bizness Dolo) : Black</a>
+      <a href="https://livemixtapes.com/mixtape/aston-ace-the-pre-sale-mixtape.html">The Pre-Sale Mixtape</a>
+      <a href="http://www.certifiedmixtapez.com/Main/Details?refId=bc391c34">Winnie Da Bear 2</a>
+      <a href="https://archive.org/details/datpiff-mixtape-m46cfd51">Hunnit Proof Vol.1 : R.N.O.A.</a>
+      <a href="https://archive.org/details/datpiff-mixtape-m63ff3e9">Winnie Da Bear</a>
+      <a href="https://www.datpiff.com/Aston-Ace-Swag-Attack-mixtape.320986.html">Swag Attack</a>
+      <a href="https://www.datpiff.com/Aston-Ace-LOUD-mixtape.97423.html">LOUD</a>
+      
+    </div>
+  </li>
+
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Videos Page">Videos</a></li>
+
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Pics Page">Pics</a></li>
+
+ <li class="dropdown">
+    <a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Online Page" class="dropbtn">Online</a>
+    <div class="dropdown-content">
+      <a href="http://www.facebook.com/Aston313">Facebook</a>
+      <a href="https://www.twitter.com/Aston313">Twitter</a>
+      <a href="https://www.instagram.com/Aston313">Instagram</a>
+      <a href="https://www.youtube.com/1EsAstonAce">Youtube</a>
+      <a href="https://www.tiktok.com/@firstplaceace">TikTok</a>
+    </div>
+  </li>
+
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Buy Page">Buy</a></li>
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Free Page">Free</a></li>
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/News Page">News</a></li>
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/Contact Page">Contact</a></li>
+  <li><a href="/home/a/Desktop/Computer/Computer Project/Websites/AstonAce.net/About Page">About</a></li>
+</div></ul>
+
+
+
+ <div class="center3"><br>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=b0b8671d">
+<img src="/home/a/Desktop/Picturez/Done/Handlin' Bizness Dolo White Front Cover.jpg" alt="H.B.D. (Handlin' Bizness Dolo) : White" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=b0b8671d">
+<img src="/home/a/Desktop/Picturez/Done/Handlin' Bizness Dolo Back Cover White.png" alt="H.B.D. (Handlin' Bizness Dolo) : White (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=87b1754f">
+<img src="/home/a/Desktop/Picturez/Done/Handlin' Bizness Dolo Front Cover.jpg" alt="H.B.D. (Handlin' Bizness Dolo) : Black" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="http://certifiedmixtapez.com/Main/Details?refId=87b1754f">
+<img src="/home/a/Desktop/Picturez/Done/Handlin' Bizness Dolo Back Cover.jpg" alt="H.B.D. (Handlin' Bizness Dolo) : Black (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+ <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://livemixtapes.com/mixtape/aston-ace-the-pre-sale-mixtape">
+<img src="/home/a/Desktop/Picturez/tHE pRE-SALE MIXTAPE FRONT.jpg" alt="Aston Ace - The Pre-Sale Mixtape" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="https://livemixtapes.com/mixtape/aston-ace-the-pre-sale-mixtape">
+<img src="/home/a/Desktop/Picturez/sitting back PRESALE COVER .jpg" alt="Aston Ace - The Pre-Sale Mixtape (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+ 
+ <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="http://www.certifiedmixtapez.com/Main/Details?refId=bc391c34">
+<img src="/home/a/Pictures/WDB2.jpg" alt="Aston Ace - Winnie Da Bear 2" style="width:400px;height:400px;">
+</a> 
+    </div>
+    <div class="flip-box-back">
+      <a href="http://www.certifiedmixtapez.com/Main/Details?refId=bc391c34">
+<img src="/home/a/Pictures/WDB2 Back.jpg" alt="Aston Ace - Winnie Da Bear 2 (Back Cover)" style="width:400px;height:400px;">
+</a> 
+    </div>
+  </div>
+</div>
+
+<br>
+
+ <div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://archive.org/details/datpiff-mixtape-m46cfd51">
+<img src="/home/a/Pictures/Hunnit Proof rnoa.jpg" alt="Aston Ace - 100 Proof Vol. 1 : Real Niggaz Of America" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="https://archive.org/details/datpiff-mixtape-m46cfd51">
+<img src="/home/a/Pictures/Hunnit Proof rnoa back.jpg" alt="Aston Ace - 100 Proof Vol. 1 : Real Niggaz Of America (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://archive.org/details/datpiff-mixtape-m63ff3e9">
+<img src="/home/a/Pictures/WDB.jpg" alt="Aston Ace - Winnie Da Bear" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="https://archive.org/details/datpiff-mixtape-m63ff3e9">
+<img src="/home/a/Pictures/WDB Back.jpg" alt="Aston Ace - Winnie Da Bear (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.datpiff.com/Aston-Ace-Swag-Attack-mixtape.320986.html">
+<img src="/home/a/Pictures/Swag Attack.jpg" alt="Aston Ace - Swag Attack" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-box-back">
+      <a href="https://www.datpiff.com/Aston-Ace-Swag-Attack-mixtape.320986.html">
+<img src="/home/a/Pictures/Swag attack back.jpg" alt="Aston Ace - Swag Attack (Back Cover)" style="width:400px;height:400px;">
+    </div>
+  </div>
+</div>
+
+<br>
+
+<a href="https://www.datpiff.com/Aston-Ace-LOUD-mixtape.97423.html">
+<img src="/home/a/Pictures/LOUD.jpg" alt="Aston Ace - Loud" style="width:400px;height:400px;">
+</div>
+
+</body>
+</html>
